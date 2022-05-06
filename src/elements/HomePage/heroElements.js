@@ -6,7 +6,7 @@ export const HeroContainer = styled.section`
   grid-template-columns: minmax(2rem,1fr) repeat(12,minmax(auto,10.625rem)) minmax(2rem,1fr);
   grid-template-rows: minmax(59rem,auto);
   min-height:100vh;
-
+ 
   @media ${props => props.theme.breakpoints.tabletlrg}{
     grid-template-columns: minmax(2rem,1fr) repeat(12, minmax(auto,4.25rem)) minmax(2rem,1fr);
   }
@@ -23,7 +23,6 @@ export const HeroBackground = styled.div`
   min-height:100vh;
   background:purple;
   overflow:hidden;
-  
  
     .heroImage{
       position:absolute;

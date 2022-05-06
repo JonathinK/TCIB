@@ -4,7 +4,7 @@ import React from 'react'
 import { StaticImage } from 'gatsby-plugin-image'
 
 //Import Elements
-import { BannerContainer, CovidBackground,BannerTitle, ImageOverlay } from '../../elements/Covid';
+import { BannerContainer, CovidBackground,BannerTitle, ImageOverlay, SvgWrapper } from '../../elements/Covid';
 
 //Svg Import
 import BannerSvgTop from '../../Svg/assets/CovidBannerTop.svg';
@@ -25,7 +25,8 @@ export const CovidBanner = (props) => {
       </CovidBackground>
       <ImageOverlay/>
       <BannerTitle>{props.BannerTitle}</BannerTitle>
-      
+      <SvgWrapper BannerBottom><BannerSvgBottom/></SvgWrapper>
+      <SvgWrapper BannerTop><BannerSvgTop/></SvgWrapper>
     </BannerContainer>
   )
 }

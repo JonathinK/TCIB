@@ -9,6 +9,9 @@ export const NavigationBar = styled.nav`
   position:fixed;
   z-index:100;  
 `
+export const Logo = styled.div`
+
+`
 
 
 

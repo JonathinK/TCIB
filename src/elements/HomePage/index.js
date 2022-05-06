@@ -1,4 +1,3 @@
-export * from "./PageWrapper";
 export * from "./devotionElements";
 export * from "./eventsElements";
 export * from "./exclusivityElements";

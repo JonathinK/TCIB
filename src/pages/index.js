@@ -3,7 +3,7 @@ import React from 'react';
 //Layout Imports
 import { Layout } from "../components/PageLayout";
 //PageWrapper Element Import
-import { HomePageWrapper} from '../elements/HomePage/PageWrapper';
+import { HomePageWrapper} from '../elements/PageWrapper.js';
 //Component Imports
 import { HeroSection,DiversitySection,EventsSection,DevotionSection,PrayerSection} from "../components/HomePage";
 
@@ -20,7 +20,6 @@ const HomePage = () => {
         Link="i'm new"
         ButtonText="I'm New"
       />
-    </HomePageWrapper>
     <DiversitySection
       MainHeading="Celebrate Diversity"
       AltHeading="Creating and open and inclusive community"
@@ -45,6 +44,7 @@ const HomePage = () => {
     <PrayerSection
       MainHeading="In Need Of A Prayer?"
     />
+    </HomePageWrapper>
     </Layout>
   )
 }

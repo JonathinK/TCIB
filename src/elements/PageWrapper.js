@@ -1,5 +1,8 @@
 import styled,{css} from "styled-components";
 
 export const HomePageWrapper = styled.div`
-  display:block;
+  
+`
+export const CovidPageWrapper = styled.div`
+  height:100vh;
 `
