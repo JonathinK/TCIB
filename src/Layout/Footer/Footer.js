@@ -22,7 +22,7 @@ const PageFooter = () => {
     <FooterContainer>
     <LogoWrapper>
       <StaticImage
-        src="../../images/Logo/Logo-Final.png"
+        src="../../images/Logo/Logo-Footer.png"
         layout="constrained"
         width={101}
         quality={100}
