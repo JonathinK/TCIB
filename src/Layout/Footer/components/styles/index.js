@@ -1,0 +1,12 @@
+export {FooterContainer} from "./Footer.styled";
+export {InfoFlex} from "./FooterInfo.Styled";
+export {LogoWrapper} from "./FooterLogo.Styled";
+export {FooterSVG} from "./FooterSvg.styled";
+export {FooterForm} from "./FooterNewsletter.Styled";
+export {FooterHr} from "./FooterHr.styled";
+export {FooterFormInput} from "./FooterNewsletterInput.Styled";
+export {FooterFormLabel} from "./FooterNewsletterLabel";
+export {FormSpan} from "./FormSpan.styled";
+export {BottomWrapper} from "./BottomWrapper.styled";
+export {FooterTitle, FooterOutsideLink, FooterText} from "./Typography";
+export {FooterSocials} from "./FooterSocials.styled";

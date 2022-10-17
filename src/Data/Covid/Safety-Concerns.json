@@ -1,0 +1,43 @@
+[
+  {
+    "Name" : "Safety Concerns",
+    "Description" : "Due to the nature of covid and the safety concerns it still imposes on our communities, we recommend that if you are feeling ill or experiencing any of these symptoms that you take the precautionary measures of staying home, seek medical attention, rest, worship from home and recover. We want everyone to have a safe environment to worship and enjoy fellowship. We have plenty of informational links for covid and what you can do to be proactive.",
+    "SymptomsName": "Symptoms of Covid",
+    "image" : "../../images/Covid/covid-molecule.png",
+    "ListItems" : [
+      {
+        "Item" : "Fever or chills"
+      },
+      {
+        "Item" : "Cough"
+      },
+      {
+        "Item" : "Shortness of breath or difficulty breathing"
+      },
+      {
+        "Item" : "Fatigue"
+      },
+      {
+        "Item" : "Muscle or body aches"
+      },
+      {
+        "Item" : "Headache"
+      },
+      {
+        "Item" : "New loss of taste or smell"
+      },
+      {
+        "Item" : "Sore throat"
+      },
+      {
+        "Item" : "Congestion or runny nose"
+      },
+      {
+        "Item" : "Nausea or vomiting"
+      },
+      {
+        "Item" : "Diarrhea"
+      }
+    ]
+  } 
+]

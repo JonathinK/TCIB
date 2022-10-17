@@ -1,0 +1,26 @@
+[
+  {
+    "SectionTitle" : "Global Information",
+    "cdcTitle" : "CDC Information",
+    "cdcSummary" : "Here you will find all the specific information on covid such as how the disease can spread, preventative measures, symptoms and many other pieces of information.",
+    "cdcButtonText" : "CDC Website",
+    "cdcButtonLink" : "https://www.cdc.gov/coronavirus/2019-ncov/index.html",
+    "cdcimage" : "../../images/Covid/CDC.jpg",
+    "whoTitle" : "World Health Org",
+    "whoSummary" : "WHO is another website filled with all up to date information on covid and more going on around the world. They also have a covid map and data on covid numbers.",
+    "whoButtonText" : "WHO Website",
+    "whoButtonLink" : "https://www.who.int",
+    "whoimage" : "../../images/Covid/Who.jpg",
+    "johnHopkinsTitle" : "John Hopkins Covid Map",
+    "johnSummary" : "John Hopkins has a very robust covid map with many details about infection rates around the world as well as data for the United States, data-in-motion, tracking FAQ and more.",
+    "johnButtonText" : "Covid Map",
+    "johnButtonLink" : "https://coronavirus.jhu.edu/data",
+    "johnimage" : "../../images/Covid/John-Hopkins.jpg"
+  }
+]
+
+
+
+
+
+ 

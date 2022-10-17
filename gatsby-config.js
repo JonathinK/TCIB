@@ -3,9 +3,93 @@ require('dotenv').config();
 module.exports = {
   siteMetadata: {
     title: `The Church In Brielle`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `JonathinKish`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    description: `We are an open and inclusive church. We welcome all from our communities as we interpret the word of god, while creating a center of spiritual wellness.`,
+    author: `Diamond Digital Services`,
+    menuLinks: [
+      {
+        name:`I'm New`,
+        link:`/im-new`,
+      },
+      {
+        name:`About`,
+        subMenu:[
+          {
+            name:`History`,
+            link:`/about/history`,
+          },
+          {
+            name:`Our Beliefs`,
+            link:`/about/our-beliefs`,
+          },
+          {
+            name:`Staff`,
+            link:`/about/staff`,
+          },
+          {
+            name:`Inclusivity Message`,
+            link:`/about/inclusivity-message`
+          },
+        ]
+      },
+      {
+        name:`Connect`,
+        subMenu:[
+          {
+            name:`Daily Devotions`,
+            link:`/connect/daily-devotions`
+          },
+          {
+            name:`Ministries`,
+            link:`/connect/ministries`,
+          },
+          {
+            name:`Life Groups`,
+            link:`/connect/life-groups`,
+          },
+          {
+            name:`Pre School`,
+            link:`/connect/pre-school`,
+          },
+          {
+            name:`Prayer Request`,
+            link:`/connect/prayer-request`,
+          }
+        ]
+      },
+      {
+        name:`Events`,
+        link:`/events`, 
+      },
+      {
+        name:`Resources`,
+        subMenu: [
+          {
+            name:`Covid Info`,
+            link:`/resources/covid-info`,
+          },
+          {
+            name:`Bible Study`,
+            link:`/resources/bible-study`,
+          },
+          {
+            name:`Home Activities`,
+            link:`/resources/home-activities`,
+          },
+          {
+            name:`Gardens`,
+            link:`/resources/gardens`,
+          },
+          {
+            name:`Directory Update`,
+            link:`/resources/directory-update`,
+          },
+        ]
+      },
+      {
+        name:`Give`,
+        link:`/give`
+      }
+    ],
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -14,13 +98,20 @@ module.exports = {
     `gatsby-plugin-styled-components`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-transformer-json`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options:{
+        path:`${__dirname}/src/data`
+      }
+    },
     { 
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
       },
-    },
+    }, 
     /* {
       resolve: `gatsby-source-contentful`,
       options: {
@@ -50,7 +141,7 @@ module.exports = {
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/small-logo.png`, // This path is relative to the root of the site.
+        icon: `src/images/Logo/Logo-Final.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

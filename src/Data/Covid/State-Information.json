@@ -1,0 +1,33 @@
+[
+  {
+    "SectionTitle" : "State Information",
+    "image" : "../../images/Covid/state-covid.jpg",
+    "SummaryTitle" : "New Jersey Official Site",
+    "Summary" : "Here you can find all of your state  and local information about covid.",
+    "ButtonText" : "NJ GOV",
+    "ButtonLink" : "https://www.covid19.nj.gov/",
+    "InfoList" : [
+      {
+        "Item" : "Hotline"
+      },
+      {
+        "Item" : "Symptom checker"
+      }
+      ,{
+        "Item" : "Testing Information"
+      }
+      ,{
+        "Item" : "Jobs available now"
+      }
+      ,{
+        "Item" : "Unemployment benefits"
+      }
+      ,{
+        "Item" : "Frequently asked questions"
+      }
+      ,{
+        "Item" : "Additional information"
+      }
+    ] 
+  }
+]

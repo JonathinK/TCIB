@@ -1,0 +1,15 @@
+[
+  {
+    "SectionTitle" : "How Can I Help",
+    "pantryImage" : "../../images/Covid/Food-Pantry.jpg",
+     "pantrySummaryTitle" : "Manasquan Food Pantry",
+     "pantrySummary" : "Any food donations can be brought to the food bank at the First Presbyterian Church in Manasquan. Visit their website to see pantry needs.",
+     "pantryButtonText":"Food Pantry",
+     "pantryButtonLink":"https://www.manasquanfoodpantry.org/",
+     "rcImage":"../../images/Covid/Red-Cross.jpg",
+     "rcSummaryTitle" : "Red Cross Blood Drive",
+     "rcSummary":"Blood drives are back, but by appointment only. Make sure if you are interested you book an appointment for your local location. They fill up fast!",
+     "rcButtonText":"Red Cross",
+     "rcButtonLink" : "https://www.redcross.org/give-blood.html"
+  }
+]

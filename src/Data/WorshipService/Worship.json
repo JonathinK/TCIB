@@ -1,0 +1,23 @@
+[
+  {
+    "WelcomeTitle":"Welcome to the center of spiritual wellness",
+    "Online":"Online",
+    "Day":"Sunday",
+    "Time":"10AM - 11AM",
+    "Stream":" Live on Facebook",
+    "FbButton":"Facebook Live",
+    "FbLink":"https://www.facebook.com/Thechurchinbrielle/",
+    "Fellowship":"FellowShip Before & After",
+    "DirectionsButton":"Directions",
+    "DirectionsLink":"https://www.google.com/maps/dir/40.0676078,-74.1122502/the+church+in+brielle/@40.0842136,-74.1244007,13z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x89c1866eb7dece6f:0xd0d0fda05eff2e9e!2m2!1d-74.0607639!2d40.1053472",
+    "ServiceTitle":"What is a typical service like?",
+    "ServiceSummary":"Our services are uplifting, our message is relevant and empowering , our music is diverse, beautiful , and connects to the overall  message of the day. We have fellowship before and after service. This is a great opportunity to meet members of the church.",
+    "MusicImage":"../../images/Worship/Music.jpg",
+    "MusicText":"Music",
+    "WorshipImage":"../../images/Worship/Worship.jpg",
+    "WorshipText":"Worship",
+    "FellowshipImage":"../../images/Worship/Fellowship.jpg",
+    "ConnectTitle":"Connect With Us",
+    "ConnectSummary":"Thank you for choosing to visit us. Tell us alittle more about you. Fill out the connection card and  join us  on a sunday for worship."
+  }
+]

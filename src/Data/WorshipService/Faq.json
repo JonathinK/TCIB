@@ -1,0 +1,31 @@
+[
+  {
+    "Question":"Do you have accessible parking?",
+    "Answer":"Yes. We have a very large lot at the back of the church where our mediation garden resides."
+  },
+  {
+    "Question":"Do you have disability access?",
+    "Answer":"We have a wheelchair accessible ramp in the back lot area of our church to get up to the church. We also have a handicap button to open the door. We have wheel chair areas in the church as well."
+  },
+  {
+    "Question":"What should I wear?",
+    "Answer":"We always want you do feel comfortable at our church. You will see business casual, suits and even pants with a polo or t-shirt."
+  },
+  {
+    "Question":"What about my kids?",
+    "SubAnswers":[
+      {
+        "Title":"OlderKids",
+        "Answer":"We feature a vibrant Sunday School program tailored for kids aged X to Y? We use a bible based, Montessori type program that really involves the kids in the bible stories."
+      },
+      {
+        "Title":"Younger Kids",
+        "Answer":"We also have a fun nursery program for the younger children and an outdoor play space so that when the weather is good, the kids can play in a safe and enclosed play area. The nursery program always includes a couple of youth supervisors to keep things in good order."
+      }
+    ]
+  },
+  {
+    "Question":"Do I have to participate at service?",
+    "Answer":"Absolutely not, we don’t  expect anyone to ever put themselves in a position that makes them feel uncomfortable. But if or when you area ready, we encourage you to participate in service. We want our house of worship to be your house of worship."
+  }
+]
